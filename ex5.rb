@@ -53,5 +53,14 @@ puts "I'm heading on a adventure to %s for  %d weeks!" % [destination, trip]
 puts "I'm going to %d different countries and %d different cities" % [countries, cities]
 puts "%s, %s, %s, %s, and %s are all coming to meet me!" % [friend_1, friend_2, friend_3, friend_4, friend_5]
 
-
+# 1 inch = 2.54 cm
+i = 2.54 
+#how may inches are there in 3 cm?
+x = 2.54 * 3
+puts "There are %f inches in 3 cm!" %[x]
+# 1 lbs = .4534 lbs
+l = 0.4534
+#How many lbs are in 3 kilos? 
+y = 0.4534 * 3
+puts "There are %f lbs in 3 kilos!" %[y]
 
