@@ -29,3 +29,17 @@ ex11.rb:18:in `<main>': undefined method `Print' for main:Object (NoMethodError)
 Katies-MacBook-Pro:wdi_kmcc mccarthykatie$ 
 
 REASON: used an Uppercase for the method Print...should be print!
+
+
+____
+
+Katies-MacBook-Pro:wdi_kmcc mccarthykatie$ ruby ex12.rb
+/Users/mccarthykatie/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/open-uri.rb:223:in `open_loop': redirection forbidden: http://www.ruby-lang.org/en -> https://www.ruby-lang.org/en (RuntimeError)
+  from /Users/mccarthykatie/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/open-uri.rb:149:in `open_uri'
+  from /Users/mccarthykatie/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/open-uri.rb:704:in `open'
+  from /Users/mccarthykatie/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/open-uri.rb:34:in `open'
+  from ex12.rb:5:in `<main>'
+Katies-MacBook-Pro:wdi_kmcc mccarthykatie$ 
+
+REASON---> I think it has to do with the redirect from the website rather thant he code----I'm not sure though
+
