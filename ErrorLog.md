@@ -43,3 +43,40 @@ Katies-MacBook-Pro:wdi_kmcc mccarthykatie$
 
 REASON---> I think it has to do with the redirect from the website rather thant he code----I'm not sure though
 
+-------
+
+Katies-MacBook-Pro:wdi_kmcc mccarthykatie$ ruby ex15.rb
+ex15.rb:5:in `initialize': no implicit conversion of nil into String (TypeError)
+  from ex15.rb:5:in `open'
+  from ex15.rb:5:in `<main>'
+
+  REASON ????
+---------
+
+  Katies-MacBook-Pro:wdi_kmcc mccarthykatie$ ruby ex15_sample.txt
+ex15_sample.txt:1: trailing `_' in number
+Exercise 15_ Sample file 
+            ^
+ex15_sample.txt:1: syntax error, unexpected tCONSTANT, expecting end-of-input
+Exercise 15_ Sample file 
+                   ^
+Katies-MacBook-Pro:wdi_kmcc mccarthykatie$ 
+
+REASON--> I dont remember how I resolved it! 
+
+-----------------
+Katies-MacBook-Pro:wdi_kmcc mccarthykatie$ ruby ex17.rb test.txt copied.txt
+Copying from test.txt to copied.txt
+The input file is 29 bytes long
+ex17.rb:12:in `<main>': undefined local variable or method `file' for main:Object (NameError)
+Katies-MacBook-Pro:wdi_kmcc mccarthykatie$ 
+
+REASON: used lower case file first file in: #{File.exists? to_file} Needs to be File
+
+-------
+
+ex17.rb:15:in `<main>': undefined local variable or method `output' for main:Object (NameError)
+Katies-MacBook-Pro:wdi_kmcc mccarthykatie$ 
+
+REASON: put a - instead of a = 
+
