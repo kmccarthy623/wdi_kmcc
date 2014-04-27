@@ -1,6 +1,4 @@
-I 
-
-think 
-
-I suck at this!
+I am trying my best. 
+Not to suck at Ruby.
+But it's hard to grasp!
 

@@ -80,3 +80,19 @@ Katies-MacBook-Pro:wdi_kmcc mccarthykatie$
 
 REASON: put a - instead of a = 
 
+-------
+ex19.rb:75:in `<main>': undefined local variable or method `nighttable' for main:Object (NameError)
+Katies-MacBook-Pro:wdi_kmcc mccarthykatie$ 
+
+REASON -> name of variable did not match the argument I was trying to call.
+
+-----
+
+Katies-MacBook-Pro:wdi_kmcc mccarthykatie$ ruby ex19.rb
+ex19.rb:85: syntax error, unexpected ',', expecting ')'
+things_to_pack (2 + 4, 3 + 7, 8 + 2)
+                      ^
+ex19.rb:85: syntax error, unexpected ',', expecting end-of-input
+things_to_pack (2 + 4, 3 + 7, 8 + 2)
+
+REASON ERRORS in the spacing between thingd_to_pack and the (!!!! NO SPACES!!! 
