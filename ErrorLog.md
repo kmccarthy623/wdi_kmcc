@@ -95,4 +95,9 @@ things_to_pack (2 + 4, 3 + 7, 8 + 2)
 ex19.rb:85: syntax error, unexpected ',', expecting end-of-input
 things_to_pack (2 + 4, 3 + 7, 8 + 2)
 
-REASON ERRORS in the spacing between thingd_to_pack and the (!!!! NO SPACES!!! 
+REASON ERRORS in the spacing between thingd_to_pack and the (!!!! NO SPACES!!!
+
+---------
+ex21.rb:26:in `<main>': undefined method `multiply' for main:Object (NoMethodError)
+
+REASON: the method name was mispelled when it was defined.
