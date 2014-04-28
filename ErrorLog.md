@@ -101,3 +101,16 @@ REASON ERRORS in the spacing between thingd_to_pack and the (!!!! NO SPACES!!!
 ex21.rb:26:in `<main>': undefined method `multiply' for main:Object (NoMethodError)
 
 REASON: the method name was mispelled when it was defined.
+
+----------
+
+ex24.rb:32:in `<main>': undefined local variable or method `starting_point' for main:Object (NameError)
+Katies-MacBook-Pro:wdi_kmcc mccarthykatie$ 
+
+REASON: I forgot to fill this one out!  
+-----
+
+Ex31.rb:17: syntax error, unexpected ':', expecting keyword_end
+  prompt: bear = gets.chomp
+
+  REASON: I didnt use a ;! TYPO! 
