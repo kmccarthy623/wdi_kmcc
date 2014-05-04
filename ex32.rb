@@ -11,32 +11,37 @@ change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
 
 #this first kind of for=loop goes though an array 
 
-for number in the_count 
+for number in the_count
   puts "This is count #{number}"
 end
 
-#same as above, but using a block instead
+# same as above, b ut using a  block instead
 fruits.each do |fruit|
   puts "A fruit of type: #{fruit}"
 end
 
-#Also we ca go through mixed arrays too 
-for i in change 
-  puts "I got #{i}"
-end 
+#also we ca go through mixed arrays too!
 
-#we can also build arrays, first start with an empty one
- elements = [] 
- #then use a range object to do 0 to 5 counts
-for i in (0..5)
-   puts "Adding #{i} to the list."
-  #push is a function that arrays understand
-   elements.push(i)
+for i in change
+  puts "I got #{i}"
 end
+
+elements = []
+
+#Then use a range object to do 0 to 5 counts 
+for i in (0..5)
+  puts "Adding #{i} to the list."
+  #push is a function that arrays understand
+  elements.push(i)
+end
+ 
 
 for i in elements 
-  puts "Element was: #{i}"
-end
+  puts "Elements was: #{i}"
+end   
+
+
+
 
 
 
@@ -51,6 +56,17 @@ end
 
 
 #QUESTION WITH EXTRA CREDIT (2)
+# yes, you could have written
+elements2 = [0,1,2,3,4,5]
+
+elements2.each do |i|
+i += 0
+puts "this is a new way to show Elements: #{i}"
+end
+
+
+
+
 
 #Extra Credit (3):
 # array.abbrev
